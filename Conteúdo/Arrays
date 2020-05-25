@@ -1,0 +1,8 @@
+//Trabalhando com array 
+var lista = ["uva", "goiaba", "banana"]; //Cria uma lista com vários elementos
+lista.pop(); //Retira o último elemento da lista
+lista.push("banana"); //Adiciona um elemento a lista
+console.log(lista); //Imprime a lista
+console.log(lista.length); //Imprime o tamanho da lista
+console.log(lista.reverse()); //Imprime a lista ao contrário
+console.log(lista.toString()); //Imprime a lista na forma de string

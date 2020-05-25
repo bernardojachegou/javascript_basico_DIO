@@ -1,0 +1,10 @@
+//Variáveis em JS
+var nome = "Michel Bernardo"; // variável com string
+var idade = 10; // variável com int
+var idade2 = 28; // variável com int
+var frase = "Japão é o melhor time do mundo"; // variável com string
+
+console.log(nome); //impressão davariável no console
+console.log(idade + idade2); //soma das variáveis int no console
+console.log(frase.replace("Japão", "Brasil")); //Impressão da string com alteração do nome
+console.log(frase.toUpperCase()); //Impressão da string com todas as letras maiúsculas

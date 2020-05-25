@@ -1,0 +1,41 @@
+function Multiplica(numero1, numero2) { //Recebe os parâmetros que serão utilizados na função
+    var numero1 = prompt("Digite o primeiro número"); //Atribui um valor ao parâmetro 01
+    var numero2 = prompt("Digite o segundo número"); //Atribui um valor ao parâmetro 02
+    return console.log(numero1 * numero2); //Retorna os parametros recebidos e multiplicados
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function SetReplace(frase, nome, sobrenome) { //Recebe os parâmetros que serão utilizados na função
+    return frase.replace(nome, sobrenome); //Retorna os parametros recebidos
+}
+
+console.log(SetReplace("Michel chegou aqui", "Michel", "Bernardo")); //Imprime a função com os valores passados
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var validar = 0; //Variável que será utilizada como valor booleano
+function ValidaIdade(idade) {
+    if (idade >= 18) {
+         validar = true; //Se a idade for maior que 18 a variável será verdadeira
+    } else {
+         validar = false; //Se a idade for maior que 18 a variável será falsa
+    }
+    return validar; //Retorna a variável de acordo com a condição
+}
+
+var idade = prompt("Digite a sua idade!"); //Recebe o valor da variável idade;
+ValidaIdade(idade); //Passa o valor recebido para função
+console.log(validar); //Retorna a variável de pois de passar pela função
+
+function Clicou() {
+    return document.getElementById("obrigado").innerHTML = "<p>Obrigado por clicar aqui!</p>";
+};
+
+function Redirecionar() {
+    return window.open("https://www.tibia.com/news/?subtopic=latestnews");
+}
+
+function funcaoChange(elemento) {
+    return console.log(elemento.value);
+}

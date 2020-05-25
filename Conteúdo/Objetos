@@ -1,0 +1,13 @@
+//Trabalhando com objetos
+var fruta = { nome: "banana", cor: "amarela", tamanho: "pequena" }; // Cria um objeto
+console.log(fruta.tamanho); //Imprime a informação tamanho do objeto
+console.log(fruta.cor); //Imprime a informação cor do objeto
+console.log(fruta); //Imprime todas as informações do objeto
+
+//Trabalhando com vários objetos
+var frutas = [ //Cria um array com vários objetos
+    { nome: "banana", cor: "amarela", tamanho: "pequena" }, 
+    { nome: "uva", cor: "roxa", tamanho: "grande" }, 
+    { nome: "maça", cor: "vermelha", tamanho: "pequena" }
+];
+console.log(frutas); //Imprime todas as informações de todos os objetos do array

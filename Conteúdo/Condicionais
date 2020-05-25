@@ -1,0 +1,7 @@
+//Condicionais em JS
+var idade = prompt("Digite a sua idade!");
+if(idade >= 18) {
+    document.write("Autorizado");
+} else {
+    document.write("Não autorizado");
+}

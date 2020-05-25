@@ -1,0 +1,4 @@
+var data = new Date();
+console.log(data); //Trás as informações relacionadas a data/hora/mês/ano
+console.log(data.getMonth()+1); //Inicia a contagem em 0
+console.log(data.getTime()); //Mostra informações de tempo em segundos

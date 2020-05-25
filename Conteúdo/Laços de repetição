@@ -1,0 +1,12 @@
+//Laços de repetição com WHILE
+var contador = 1;
+while (contador <= 5) {
+    console.log(contador);
+    contador++;
+}
+
+//Laços de repetição com FOR
+var contador;
+for (contadora = 1; contadora <= 5; contadora++) {
+    console.log(contadora);
+}
